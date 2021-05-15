@@ -1,2 +1,12 @@
-input_data_path: ./data/raw/data.csv
-output_model_path: ./models/model.pkl
+input_data_path: "data/raw/heart.csv"
+output_model_path: "models/model.pkl"
+log_params:
+    path_to_config: "configs/logging.yaml"
+split_params:
+    random_seed: 10
+    val_size: 0.15
+feature_params:
+    features_and_transformers_map: "configs/features.yaml"
+    target:
+        - target
+
