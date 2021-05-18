@@ -22,5 +22,5 @@ def test_read_train_parameters_check_split_parameters(
         simple_config_path: LocalPath
 ):
     settings = read_train_parameters(simple_config_path)
-    assert settings.split_params.random_seed == 10
+    assert settings.split_params.random_seed == 101
     assert abs(settings.split_params.val_size - 0.15) < 1e-6

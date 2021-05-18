@@ -1,0 +1,20 @@
+input_data_path: "data/raw/heart.csv"
+output_model_path: "models/model_rf.pkl"
+log_params:
+    path_to_config: "configs/logging.yaml"
+split_params:
+    random_seed: 10
+    val_size: 0.15
+feature_params:
+    features_and_transformers_map: "configs/features_rf.yaml"
+    target:
+        - target
+model_params:
+    name: "RandomForestClassifier"
+    hyper_params:
+        random_state: 1
+        n_estimators: 110
+        n_jobs: -1
+
+
+

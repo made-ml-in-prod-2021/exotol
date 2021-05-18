@@ -1,7 +1,6 @@
 from py._path.local import LocalPath
 from src.entities.feature_params import FeatureParams
 from src.features.transformers import read_map_features_transformers
-from typing import List, Tuple
 from sklearn.base import TransformerMixin
 
 
@@ -9,6 +8,7 @@ def test_read_map_features_transformers(
         simple_feature_map_transformers: LocalPath
 ):
     feature_params = FeatureParams(
+        target=["none"],
         features_and_transformers_map=simple_feature_map_transformers
     )
     mapper_feature_to_transformer = read_map_features_transformers(
