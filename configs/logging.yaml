@@ -66,6 +66,15 @@ loggers:
       - console
     propagate: no
 
+  inference:
+    level: DEBUG
+    handlers:
+      - file_info
+      - file_warnings
+      - file_error
+      - console
+    propagate: no
+
   root:
     level: INFO
     handlers:

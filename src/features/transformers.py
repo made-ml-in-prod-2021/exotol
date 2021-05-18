@@ -3,7 +3,7 @@ from typing import List, Tuple
 
 import yaml
 from sklearn.base import BaseEstimator, TransformerMixin
-
+from sklearn.preprocessing import StandardScaler
 from src.entities.feature_params import FeatureParams
 
 logger = logging.getLogger("features")
@@ -22,6 +22,8 @@ def factory_method(transformer_name: str) -> TransformerMixin:
     logger.debug("start factory_method")
     if transformer_name == "NoneTransformer":
         transformer = NoneTransformer()
+    elif transformer_name == "StandardScaler":
+        transformer = StandardScaler()
     else:
         transformer = None
     logger.debug("end factory_method")

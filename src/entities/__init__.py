@@ -8,3 +8,9 @@ from .logging_params import (
 from .split_params import (
     SplitParameters
 )
+from .feature_params import (
+    FeatureParams
+)
+from .model_params import (
+    ModelParameters
+)

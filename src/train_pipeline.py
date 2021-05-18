@@ -1,8 +1,9 @@
 import click
 import logging
+from pprint import pformat
 from src.log.utils import set_logging_config
 from src.entities.train_pipeline_params import (
-    read_train_parameters
+    TrainPipelineParams, read_train_parameters
 )
 from src.data.make_dataset import (
     read_data,
@@ -15,12 +16,21 @@ from src.features.build_features import (
 )
 
 from src.models.model_utils import (
-    create_model
+    create_model,
+    serialize
+)
+from src.models.predict_model import (
+    create_inference_pipeline,
+    predict_model,
+    evaluate_model
+)
+from src.models.train_model import (
+    train_model
 )
 logger = logging.getLogger("pipeline")
 
 
-def train_pipeline(settings):
+def train_pipeline(settings: TrainPipelineParams):
     set_logging_config(settings.log_params)
 
     logger.info("Stage: read data")
@@ -47,15 +57,31 @@ def train_pipeline(settings):
     logger.info("Stage: create model")
     model = create_model(settings.model_params)
 
-    # logger.info("Stage: train model")
-    # train_model(model, train_features, train_target)
-    #
-    # logger.info("Stage: serialize model")
-    # inference_pipeline = create_inference_pipeline(model, transformer)
-    # serialize_model(inference_pipeline, settings.output_model_path)
+    logger.info("Stage: train model")
+    train_model(model, train_features, train_target)
 
+    logger.info("Stage: serialize model")
+    inference_pipeline = create_inference_pipeline(model, transformer)
 
+    logger.info("Stage: scoring model")
+    predicts = predict_model(
+        inference_pipeline,
+        valid_df,
+    )
 
+    valid_target = create_target(valid_df, settings.feature_params)
+    metrics = evaluate_model(
+        predicts,
+        valid_target
+    )
+    logger.info("Metrics: {}".format(pformat(metrics)))
+    serialize({
+            "model": inference_pipeline,
+            "metrics": metrics
+        },
+        settings
+    )
+    return settings.output_model_path, metrics
 
 @click.command("train_pipeline")
 @click.argument("config_path")

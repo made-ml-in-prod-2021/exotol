@@ -2,9 +2,9 @@ import logging
 
 import numpy as np
 import pandas as pd
-from typing import List
+from typing import List, Tuple
 from sklearn.compose import ColumnTransformer, make_column_transformer
-
+from sklearn.base import TransformerMixin, BaseEstimator
 from src.entities.feature_params import FeatureParams
 from src.features.transformers import read_map_features_transformers
 
@@ -18,6 +18,7 @@ def build_transformer(
     tuples_feat_transformers = read_map_features_transformers(
         feature_params
     )
+    logger.debug(f"Transformers: {tuples_feat_transformers}")
     transformer = make_column_transformer(
         *tuples_feat_transformers
     )
