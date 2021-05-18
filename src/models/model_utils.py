@@ -9,8 +9,8 @@ from sklearn.linear_model import (
 from sklearn.ensemble import (
     RandomForestClassifier
 )
-from src.entities import ModelParameters, TrainPipelineParams
-from src.entities.predict_pipeline_params import PredictPipelineParams
+from entities import ModelParameters, TrainPipelineParams
+from entities.predict_pipeline_params import PredictPipelineParams
 
 logger = logging.getLogger("models")
 

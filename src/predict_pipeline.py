@@ -3,11 +3,11 @@ import logging
 import click
 import pandas as pd
 
-from src.data import read_data
-from src.entities.predict_pipeline_params import PredictPipelineParams, \
+from data import read_data
+from entities.predict_pipeline_params import PredictPipelineParams, \
     read_predict_params
-from src.log import set_logging_config
-from src.models.model_utils import deserialize
+from log import set_logging_config
+from models.model_utils import deserialize
 
 logger = logging.getLogger("inference")
 
@@ -25,7 +25,7 @@ def predict_pipeline(settings: PredictPipelineParams):
 
     result = pd.Series(predictions, index=df.index, name="prediction")
     result.to_csv(
-        settings.output_data_path,
+        settings.output_target_path,
         index=False
     )
     logger.info("finish prediction")

@@ -2,10 +2,10 @@ import yaml
 from dataclasses import dataclass
 from marshmallow_dataclass import class_schema
 
-from src.entities.logging_params import LoggingParameters
-from src.entities.split_params import SplitParameters
-from src.entities.feature_params import FeatureParams
-from src.entities.model_params import ModelParameters
+from entities.logging_params import LoggingParameters
+from entities.split_params import SplitParameters
+from entities.feature_params import FeatureParams
+from entities.model_params import ModelParameters
 
 
 @dataclass()

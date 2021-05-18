@@ -1,6 +1,6 @@
 import logging.config
 import yaml
-from src.entities.logging_params import LoggingParameters
+from entities.logging_params import LoggingParameters
 
 
 def set_logging_config(log_param: LoggingParameters):

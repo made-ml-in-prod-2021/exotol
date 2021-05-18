@@ -4,7 +4,7 @@ from typing import List, Tuple
 import yaml
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import StandardScaler
-from src.entities.feature_params import FeatureParams
+from entities.feature_params import FeatureParams
 
 logger = logging.getLogger("features")
 

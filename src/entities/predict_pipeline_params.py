@@ -1,7 +1,7 @@
 import yaml
 from dataclasses import dataclass
 from marshmallow_dataclass import class_schema
-from src.entities import LoggingParameters
+from entities import LoggingParameters
 
 
 @dataclass()

@@ -2,7 +2,7 @@ import pandas as pd
 import logging
 from sklearn import model_selection
 from typing import Tuple
-from src.entities.split_params import SplitParameters
+from entities.split_params import SplitParameters
 
 logger = logging.getLogger("data")
 

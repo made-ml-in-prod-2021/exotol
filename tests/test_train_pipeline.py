@@ -1,7 +1,7 @@
 import os
 import pytest
 from py._path.local import LocalPath
-from src.entities import (
+from entities import (
     FeatureParams,
     LoggingParameters,
     ModelParameters,
@@ -19,7 +19,7 @@ def test_train_pipeline(fake_dataset_path: LocalPath):
         input_data_path=fake_dataset_path,
         output_model_path="./hub/model.pkl",
         log_params=LoggingParameters(
-            path_to_config="logging.yaml"
+            path_to_config="./tests/logging.yaml"
         ),
         split_params=SplitParameters(
             random_seed=1001,
@@ -27,7 +27,7 @@ def test_train_pipeline(fake_dataset_path: LocalPath):
         ),
         feature_params=FeatureParams(
             target=["target"],
-            features_and_transformers_map="features_lr.yaml"
+            features_and_transformers_map="./tests/features_lr.yaml"
         ),
         model_params=ModelParameters(
             name="LogisticRegression",

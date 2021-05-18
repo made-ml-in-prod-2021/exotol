@@ -1,30 +1,30 @@
 import click
 import logging
 from pprint import pformat
-from src.log.utils import set_logging_config
-from src.entities.train_pipeline_params import (
+from log.utils import set_logging_config
+from entities.train_pipeline_params import (
     TrainPipelineParams, read_train_parameters
 )
-from src.data.make_dataset import (
+from data.make_dataset import (
     read_data,
     train_val_split
 )
-from src.features.build_features import (
+from features.build_features import (
     build_transformer,
     create_features,
     create_target
 )
 
-from src.models.model_utils import (
+from models.model_utils import (
     create_model,
     serialize
 )
-from src.models.predict_model import (
+from models.predict_model import (
     create_inference_pipeline,
     predict_model,
     evaluate_model
 )
-from src.models.train_model import (
+from models.train_model import (
     train_model
 )
 logger = logging.getLogger("pipeline")
