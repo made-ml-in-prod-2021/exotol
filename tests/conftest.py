@@ -92,7 +92,6 @@ def fake_dataset_path(
     return fake
 
 
-
 @pytest.fixture()
 def map_features_to_transformer_fake(tmpdir: LocalPath) -> LocalPath:
     feature_to_transformer = dedent("""

@@ -1,9 +1,11 @@
 import logging
 from typing import List, Tuple
 
+import numpy as np
 import yaml
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.preprocessing import StandardScaler
+# from sklearn.preprocessing import StandardScaler
+
 from entities.feature_params import FeatureParams
 
 logger = logging.getLogger("features")
@@ -16,6 +18,17 @@ class NoneTransformer(TransformerMixin, BaseEstimator):
 
     def transform(self, X, y=None):
         return X
+
+
+class StandardScaler(TransformerMixin, BaseEstimator):
+
+    def fit(self, X, y=None, **fit_params):
+        self.means = np.mean(X, axis=0)
+        self.stds = np.std(X, axis=0)
+        return self
+
+    def transform(self, X, y=None):
+        return (X - self.means) / self.stds
 
 
 def factory_method(transformer_name: str) -> TransformerMixin:
