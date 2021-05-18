@@ -7,15 +7,15 @@ from src.entities.predict_pipeline_params import PredictPipelineParams
 from src.predict_pipeline import predict_pipeline
 
 
-@pytest.mark.depends(on=['test_train_pipeline'])
+@pytest.mark.depends(on=['tests/test_train_pipeline.py::test_train_pipeline'])
 def test_predict_pipeline_command(fake_dataset_path: LocalPath):
     settings = PredictPipelineParams(
-        model_path="./hub/model1.pkl",
+        model_path="./tests/hub/model.pkl",
         input_data_path=fake_dataset_path,
-        output_data_path="./hub/test_features.csv",
-        output_target_path="./hub/test_target.csv",
-        log_params = LoggingParameters(
-            path_to_config="logging.yaml"
+        output_data_path="./tests/hub/test_features.csv",
+        output_target_path="./tests/hub/test_target.csv",
+        log_params=LoggingParameters(
+            path_to_config="./tests/logging.yaml"
         )
     )
     df = pd.read_csv(fake_dataset_path)

@@ -13,11 +13,11 @@ from src.train_pipeline import train_pipeline
 
 
 def test_train_pipeline(fake_dataset_path: LocalPath):
-    if not os.path.exists("./hub"):
-        os.mkdir("./hub")
+    if not os.path.exists("./tests/hub"):
+        os.mkdir("./tests/hub")
     settings = TrainPipelineParams(
         input_data_path=fake_dataset_path,
-        output_model_path="./hub/model.pkl",
+        output_model_path="./tests/hub/model.pkl",
         log_params=LoggingParameters(
             path_to_config="./tests/logging.yaml"
         ),
