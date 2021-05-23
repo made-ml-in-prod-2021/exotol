@@ -27,6 +27,8 @@ from models.predict_model import (
 from models.train_model import (
     train_model
 )
+from sklearn.pipeline import Pipeline
+
 logger = logging.getLogger("pipeline")
 
 
@@ -75,13 +77,20 @@ def train_pipeline(settings: TrainPipelineParams):
         valid_target
     )
     logger.info("Metrics: {}".format(pformat(metrics)))
-    serialize({
-            "model": inference_pipeline,
-            "metrics": metrics
+    serialize(
+        {
+            # "model": inference_pipeline,
+            # "metrics": metrics
+            "model": Pipeline([
+                ("transformer", transformer),
+                ("model", model)
+            ])
         },
+        # inference_pipeline,
         settings
     )
     return settings.output_model_path, metrics
+
 
 @click.command("train_pipeline")
 @click.argument("config_path")

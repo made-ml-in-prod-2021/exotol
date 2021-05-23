@@ -1,5 +1,5 @@
 import logging
-import pickle as pkl
+import dill as pkl
 from typing import Any, Dict
 
 from sklearn.base import BaseEstimator
@@ -41,7 +41,7 @@ def create_model(model_params: ModelParameters):
 def serialize(data: Dict[str, Any], settings: TrainPipelineParams):
     logger.debug("start serialize")
     with open(settings.output_model_path, "wb") as in_stream:
-        pkl.dump(data, in_stream, protocol=pkl.HIGHEST_PROTOCOL)
+        pkl.dump(data, in_stream, protocol=4)
     logger.debug("stop serialize")
 
 

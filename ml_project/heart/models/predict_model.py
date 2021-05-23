@@ -14,7 +14,7 @@ logger = logging.getLogger("models")
 def create_inference_pipeline(
         model: BaseEstimator,
         transformer: ColumnTransformer
-):
+) -> Pipeline:
     logger.debug("start create_inference_pipeline")
     pipeline = Pipeline([
         ("transformer", transformer),
