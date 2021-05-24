@@ -11,7 +11,8 @@ https://github.com/catalyst-team/codestyle/blob/master/setup.py
 NAME = "heart_desease_train"
 VERSION = "0.2.0"
 DESCRIPTION = "fit.predict.project"
-URL = "http//github.com/made-ml-in-prod-2021/exotol@homework1"
+URL = "http//github.com/made-ml-in-prod-2021/exotol@homework1_fix#egg" \
+      "=ml_project "
 AUTHOR = "exotol"
 REQUIRES_PYTHON = ">=3.7.0"
 LICENSE = "GPL"
