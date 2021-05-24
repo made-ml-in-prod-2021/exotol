@@ -1,1 +1,1 @@
-cd .. && python src/train_pipeline.py configs/train_config_logistic_regression.yaml && python src/predict_pipeline.py configs/predict_config_lr.yaml && cd commands
+cd .. && python heart_disease_train/train_pipeline.py configs/train_config_logistic_regression.yaml && python heart_disease_train/predict_pipeline.py configs/predict_config_lr.yaml && cd commands

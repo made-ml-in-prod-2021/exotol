@@ -1,1 +1,1 @@
-cd .. && pytest tests/ && cd commands
+cd .. && python -m pytest tests/ && cd commands

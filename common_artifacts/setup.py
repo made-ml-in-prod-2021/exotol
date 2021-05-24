@@ -8,9 +8,9 @@ https://github.com/catalyst-team/codestyle/blob/master/setup.py
 """
 
 # Package meta-data.
-NAME = "heart_desease_train"
+NAME = "heart_desease_common"
 VERSION = "0.2.0"
-DESCRIPTION = "fit.predict.project"
+DESCRIPTION = "Common.Entities"
 URL = "http//github.com/made-ml-in-prod-2021/exotol@homework1"
 AUTHOR = "exotol"
 REQUIRES_PYTHON = ">=3.7.0"

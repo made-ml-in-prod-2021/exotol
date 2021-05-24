@@ -2,9 +2,11 @@ import pandas as pd
 import pytest
 from py._path.local import LocalPath
 from sklearn import metrics
-from src.entities import LoggingParameters
-from src.entities.predict_pipeline_params import PredictPipelineParams
-from src.predict_pipeline import predict_pipeline
+from heart_disease_common.entities import LoggingParameters
+from heart_disease_common.entities.predict_pipeline_params import (
+    PredictPipelineParams
+)
+from heart_disease_train.predict_pipeline import predict_pipeline
 
 
 @pytest.mark.depends(on=['tests/test_train_pipeline.py::test_train_pipeline'])

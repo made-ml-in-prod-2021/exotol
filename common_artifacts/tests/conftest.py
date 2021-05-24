@@ -1,7 +1,6 @@
 import pytest
 import pandas as pd
 import numpy as np
-from typing import Tuple
 from textwrap import dedent
 from py._path.local import LocalPath
 

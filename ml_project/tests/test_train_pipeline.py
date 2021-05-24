@@ -1,15 +1,15 @@
 import os
 import pytest
 from py._path.local import LocalPath
-from entities import (
+from heart_disease_common.entities import (
     FeatureParams,
     LoggingParameters,
     ModelParameters,
     SplitParameters,
     TrainPipelineParams
 )
-from src.entities.model_params import HyperParameters
-from src.train_pipeline import train_pipeline
+from heart_disease_common.entities.model_params import HyperParameters
+from heart_disease_train.train_pipeline import train_pipeline
 
 
 def test_train_pipeline(fake_dataset_path: LocalPath):
