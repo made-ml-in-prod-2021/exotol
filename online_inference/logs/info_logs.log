@@ -1,0 +1,412 @@
+2021-05-25 16:24:11,266 - inference - DEBUG - start load_model
+2021-05-25 16:24:11,267 - inference - DEBUG - start deserialize
+2021-05-25 16:24:11,634 - inference - DEBUG - stop deserialize
+2021-05-25 16:24:11,635 - inference - DEBUG - stop load_model
+2021-05-25 16:31:18,844 - inference - DEBUG - start load_model
+2021-05-25 16:31:18,845 - inference - DEBUG - start deserialize
+2021-05-25 16:31:19,145 - inference - DEBUG - stop deserialize
+2021-05-25 16:31:19,145 - inference - DEBUG - stop load_model
+2021-05-25 16:31:37,885 - inference - INFO - request on /predict
+2021-05-25 16:31:37,885 - inference - DEBUG - start make_predict
+2021-05-25 16:31:37,888 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:37,927 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:37,948 - inference - INFO - request on /predict
+2021-05-25 16:31:37,949 - inference - DEBUG - start make_predict
+2021-05-25 16:31:37,951 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:37,990 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:37,999 - inference - INFO - request on /predict
+2021-05-25 16:31:37,999 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,002 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,038 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,047 - inference - INFO - request on /predict
+2021-05-25 16:31:38,047 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,050 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,086 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,095 - inference - INFO - request on /predict
+2021-05-25 16:31:38,095 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,097 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,129 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,138 - inference - INFO - request on /predict
+2021-05-25 16:31:38,138 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,140 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,173 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,181 - inference - INFO - request on /predict
+2021-05-25 16:31:38,182 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,184 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,216 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,225 - inference - INFO - request on /predict
+2021-05-25 16:31:38,225 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,227 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,284 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,293 - inference - INFO - request on /predict
+2021-05-25 16:31:38,293 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,296 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,346 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,355 - inference - INFO - request on /predict
+2021-05-25 16:31:38,355 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,358 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,390 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,399 - inference - INFO - request on /predict
+2021-05-25 16:31:38,399 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,402 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,438 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,448 - inference - INFO - request on /predict
+2021-05-25 16:31:38,448 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,450 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,490 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,499 - inference - INFO - request on /predict
+2021-05-25 16:31:38,499 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,502 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,544 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,554 - inference - INFO - request on /predict
+2021-05-25 16:31:38,555 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,557 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,623 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,633 - inference - INFO - request on /predict
+2021-05-25 16:31:38,633 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,636 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,690 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,698 - inference - INFO - request on /predict
+2021-05-25 16:31:38,698 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,701 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,737 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,747 - inference - INFO - request on /predict
+2021-05-25 16:31:38,747 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,749 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,782 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,790 - inference - INFO - request on /predict
+2021-05-25 16:31:38,791 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,793 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,824 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,834 - inference - INFO - request on /predict
+2021-05-25 16:31:38,834 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,837 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,874 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:38,884 - inference - INFO - request on /predict
+2021-05-25 16:31:38,885 - inference - DEBUG - start make_predict
+2021-05-25 16:31:38,887 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:38,996 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,004 - inference - INFO - request on /predict
+2021-05-25 16:31:39,004 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,007 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,045 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,055 - inference - INFO - request on /predict
+2021-05-25 16:31:39,055 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,057 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,098 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,108 - inference - INFO - request on /predict
+2021-05-25 16:31:39,108 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,111 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,153 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,162 - inference - INFO - request on /predict
+2021-05-25 16:31:39,162 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,165 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,202 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,211 - inference - INFO - request on /predict
+2021-05-25 16:31:39,212 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,214 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,250 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,259 - inference - INFO - request on /predict
+2021-05-25 16:31:39,259 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,263 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,332 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,341 - inference - INFO - request on /predict
+2021-05-25 16:31:39,341 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,344 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,387 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,396 - inference - INFO - request on /predict
+2021-05-25 16:31:39,396 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,398 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,433 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,442 - inference - INFO - request on /predict
+2021-05-25 16:31:39,443 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,460 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,510 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,520 - inference - INFO - request on /predict
+2021-05-25 16:31:39,520 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,522 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,562 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,571 - inference - INFO - request on /predict
+2021-05-25 16:31:39,571 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,574 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,611 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,621 - inference - INFO - request on /predict
+2021-05-25 16:31:39,621 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,624 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,656 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,665 - inference - INFO - request on /predict
+2021-05-25 16:31:39,665 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,668 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,709 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,719 - inference - INFO - request on /predict
+2021-05-25 16:31:39,719 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,721 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,771 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,780 - inference - INFO - request on /predict
+2021-05-25 16:31:39,781 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,782 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,820 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,828 - inference - INFO - request on /predict
+2021-05-25 16:31:39,828 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,831 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:39,869 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:39,878 - inference - INFO - request on /predict
+2021-05-25 16:31:39,879 - inference - DEBUG - start make_predict
+2021-05-25 16:31:39,881 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,027 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,035 - inference - INFO - request on /predict
+2021-05-25 16:31:40,036 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,038 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,076 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,086 - inference - INFO - request on /predict
+2021-05-25 16:31:40,086 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,088 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,127 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,137 - inference - INFO - request on /predict
+2021-05-25 16:31:40,137 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,140 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,181 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,190 - inference - INFO - request on /predict
+2021-05-25 16:31:40,190 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,193 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,229 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,238 - inference - INFO - request on /predict
+2021-05-25 16:31:40,238 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,241 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,281 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,290 - inference - INFO - request on /predict
+2021-05-25 16:31:40,291 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,294 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,333 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,342 - inference - INFO - request on /predict
+2021-05-25 16:31:40,343 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,345 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,386 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,394 - inference - INFO - request on /predict
+2021-05-25 16:31:40,395 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,397 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,433 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,441 - inference - INFO - request on /predict
+2021-05-25 16:31:40,442 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,444 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,478 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,486 - inference - INFO - request on /predict
+2021-05-25 16:31:40,486 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,488 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,527 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,537 - inference - INFO - request on /predict
+2021-05-25 16:31:40,537 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,540 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,585 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,594 - inference - INFO - request on /predict
+2021-05-25 16:31:40,594 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,597 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,632 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,641 - inference - INFO - request on /predict
+2021-05-25 16:31:40,641 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,643 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,677 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,686 - inference - INFO - request on /predict
+2021-05-25 16:31:40,686 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,688 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,731 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,741 - inference - INFO - request on /predict
+2021-05-25 16:31:40,741 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,743 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,780 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,788 - inference - INFO - request on /predict
+2021-05-25 16:31:40,789 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,791 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,831 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,839 - inference - INFO - request on /predict
+2021-05-25 16:31:40,839 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,841 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,877 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,886 - inference - INFO - request on /predict
+2021-05-25 16:31:40,886 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,888 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:40,923 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:40,933 - inference - INFO - request on /predict
+2021-05-25 16:31:40,933 - inference - DEBUG - start make_predict
+2021-05-25 16:31:40,936 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,039 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,048 - inference - INFO - request on /predict
+2021-05-25 16:31:41,048 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,050 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,084 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,093 - inference - INFO - request on /predict
+2021-05-25 16:31:41,093 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,095 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,130 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,138 - inference - INFO - request on /predict
+2021-05-25 16:31:41,138 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,141 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,188 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,198 - inference - INFO - request on /predict
+2021-05-25 16:31:41,199 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,201 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,245 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,255 - inference - INFO - request on /predict
+2021-05-25 16:31:41,255 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,259 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,314 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,323 - inference - INFO - request on /predict
+2021-05-25 16:31:41,324 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,326 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,364 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,373 - inference - INFO - request on /predict
+2021-05-25 16:31:41,373 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,376 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,411 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,421 - inference - INFO - request on /predict
+2021-05-25 16:31:41,421 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,424 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,461 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,470 - inference - INFO - request on /predict
+2021-05-25 16:31:41,471 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,476 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,516 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,525 - inference - INFO - request on /predict
+2021-05-25 16:31:41,526 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,529 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,567 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,575 - inference - INFO - request on /predict
+2021-05-25 16:31:41,576 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,579 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,626 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,636 - inference - INFO - request on /predict
+2021-05-25 16:31:41,636 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,639 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,689 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,699 - inference - INFO - request on /predict
+2021-05-25 16:31:41,700 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,703 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,751 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,761 - inference - INFO - request on /predict
+2021-05-25 16:31:41,761 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,763 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,802 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,811 - inference - INFO - request on /predict
+2021-05-25 16:31:41,811 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,814 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,854 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,863 - inference - INFO - request on /predict
+2021-05-25 16:31:41,864 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,866 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:41,936 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:41,945 - inference - INFO - request on /predict
+2021-05-25 16:31:41,945 - inference - DEBUG - start make_predict
+2021-05-25 16:31:41,948 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,048 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,056 - inference - INFO - request on /predict
+2021-05-25 16:31:42,056 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,059 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,098 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,107 - inference - INFO - request on /predict
+2021-05-25 16:31:42,108 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,111 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,192 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,201 - inference - INFO - request on /predict
+2021-05-25 16:31:42,201 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,204 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,238 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,248 - inference - INFO - request on /predict
+2021-05-25 16:31:42,249 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,252 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,290 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,301 - inference - INFO - request on /predict
+2021-05-25 16:31:42,301 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,304 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,355 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,364 - inference - INFO - request on /predict
+2021-05-25 16:31:42,364 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,367 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,411 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,420 - inference - INFO - request on /predict
+2021-05-25 16:31:42,420 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,423 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,460 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,469 - inference - INFO - request on /predict
+2021-05-25 16:31:42,470 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,472 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,519 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,529 - inference - INFO - request on /predict
+2021-05-25 16:31:42,529 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,532 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,578 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,587 - inference - INFO - request on /predict
+2021-05-25 16:31:42,587 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,590 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,633 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,642 - inference - INFO - request on /predict
+2021-05-25 16:31:42,642 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,645 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,677 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,685 - inference - INFO - request on /predict
+2021-05-25 16:31:42,685 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,688 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,720 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,730 - inference - INFO - request on /predict
+2021-05-25 16:31:42,730 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,732 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,776 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,786 - inference - INFO - request on /predict
+2021-05-25 16:31:42,786 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,789 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,840 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,849 - inference - INFO - request on /predict
+2021-05-25 16:31:42,849 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,852 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,893 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,901 - inference - INFO - request on /predict
+2021-05-25 16:31:42,902 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,904 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,937 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:42,946 - inference - INFO - request on /predict
+2021-05-25 16:31:42,947 - inference - DEBUG - start make_predict
+2021-05-25 16:31:42,949 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:42,999 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,009 - inference - INFO - request on /predict
+2021-05-25 16:31:43,009 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,011 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,064 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,073 - inference - INFO - request on /predict
+2021-05-25 16:31:43,074 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,076 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,113 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,122 - inference - INFO - request on /predict
+2021-05-25 16:31:43,122 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,125 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,157 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,166 - inference - INFO - request on /predict
+2021-05-25 16:31:43,167 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,169 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,208 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,218 - inference - INFO - request on /predict
+2021-05-25 16:31:43,218 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,221 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,264 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,273 - inference - INFO - request on /predict
+2021-05-25 16:31:43,273 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,276 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,311 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,320 - inference - INFO - request on /predict
+2021-05-25 16:31:43,320 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,322 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,355 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,364 - inference - INFO - request on /predict
+2021-05-25 16:31:43,364 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,365 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,403 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,412 - inference - INFO - request on /predict
+2021-05-25 16:31:43,412 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,415 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,460 - inference - DEBUG - stop make_predict
+2021-05-25 16:31:43,470 - inference - INFO - request on /predict
+2021-05-25 16:31:43,470 - inference - DEBUG - start make_predict
+2021-05-25 16:31:43,473 - inference - INFO - Data shape: (1, 13)
+2021-05-25 16:31:43,508 - inference - DEBUG - stop make_predict
+2021-05-25 16:37:51,661 - inference - DEBUG - start load_model
+2021-05-25 16:37:51,661 - inference - DEBUG - start deserialize
+2021-05-25 16:37:51,945 - inference - DEBUG - stop deserialize
+2021-05-25 16:37:51,946 - inference - DEBUG - stop load_model
