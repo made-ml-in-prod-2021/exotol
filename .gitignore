@@ -1,0 +1,5 @@
+/.venv
+/online_inference/.idea
+/.idea/inspectionProfiles
+/.idea
+/online_inference/heart_disease_app/__pycache__/app.cpython-39.pyc
