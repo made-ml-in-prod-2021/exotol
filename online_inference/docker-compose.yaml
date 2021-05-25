@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+    web-app:
+      image: exotol/heart_disease_app:v2
+#      build: .
+      ports:
+        - "9000:8000"
