@@ -24,7 +24,7 @@ def predict_pipeline(settings: PredictPipelineParams):
     logger.info("Stage: load model")
     model = deserialize(settings)["model"]
 
-    predictions = model.predict(df)
+    predictions = model.predict(df.drop('target', axis=1))
 
     result = pd.Series(predictions, index=df.index, name="prediction")
     result.to_csv(

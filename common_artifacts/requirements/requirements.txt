@@ -5,3 +5,4 @@ dataclasses==0.6
 pandas==1.2.4
 numpy>=1.18
 scikit-learn==0.24.1
+bdist_wheel

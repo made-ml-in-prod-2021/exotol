@@ -47,14 +47,14 @@ def train_pipeline(settings: TrainPipelineParams):
     logger.info("Stage: create train features")
     transformer = build_transformer(settings.feature_params)
 
+    logger.info("Stage: create target")
+    train_target = create_target(train_df, settings.feature_params)
+
     logger.info("Stage: create train features")
     train_features = create_features(
         transformer,
-        train_df,
+        train_df.drop(settings.feature_params.target, axis=1, errors='ignore'),
     )
-
-    logger.info("Stage: create target")
-    train_target = create_target(train_df, settings.feature_params)
 
     logger.info("Stage: create model")
     model = create_model(settings.model_params)
@@ -68,7 +68,7 @@ def train_pipeline(settings: TrainPipelineParams):
     logger.info("Stage: scoring model")
     predicts = predict_model(
         inference_pipeline,
-        valid_df,
+        valid_df.drop(settings.feature_params.target, axis=1, errors='ignore'),
     )
 
     valid_target = create_target(valid_df, settings.feature_params)
@@ -79,12 +79,8 @@ def train_pipeline(settings: TrainPipelineParams):
     logger.info("Metrics: {}".format(pformat(metrics)))
     serialize(
         {
-            # "model": inference_pipeline,
-            # "metrics": metrics
-            "model": Pipeline([
-                ("transformer", transformer),
-                ("model", model)
-            ])
+            "model": inference_pipeline,
+            "metrics": metrics
         },
         # inference_pipeline,
         settings

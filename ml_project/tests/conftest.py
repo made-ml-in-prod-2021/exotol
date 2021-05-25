@@ -136,8 +136,8 @@ def make_dataset(seed: int, size: int) -> pd.DataFrame:
     df = pd.DataFrame()
 
     df['age'] = np.random.randint(29, 77, size=size)
-    df['cp'] = np.random.randint(4, size=size)
     df['sex'] = np.random.randint(2, size=size)
+    df['cp'] = np.random.randint(4, size=size)
     df['trestbps'] = np.random.randint(94, 200, size=size)
     df['chol'] = np.random.randint(126, 564, size=size)
     df['fbs'] = np.random.randint(2, size=size)
