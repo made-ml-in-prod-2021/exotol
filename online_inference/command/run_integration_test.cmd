@@ -1,0 +1,1 @@
+cd .. && python heart_disease_app/integration_test.py 192.168.99.100 9000 && cd ./command
