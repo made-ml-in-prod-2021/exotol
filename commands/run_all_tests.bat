@@ -1,0 +1,1 @@
+cd .. && pytest tests/ && cd commands
