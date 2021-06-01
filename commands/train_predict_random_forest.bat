@@ -1,0 +1,1 @@
+cd .. && python src/train_pipeline.py configs/train_config_random_forest.yaml && python src/predict_pipeline.py configs/predict_config_rf.yaml && cd commands

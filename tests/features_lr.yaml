@@ -1,0 +1,15 @@
+NoneTransformer:
+  - age
+  - sex
+  - cp
+  - fbs
+  - restecg
+  - thalach
+  - exang
+  - oldpeak
+  - slope
+  - ca
+  - thal
+StandardScaler:
+  - trestbps
+  - chol
